@@ -14,7 +14,7 @@ Constraints:
 
 The naive approach is to start from the first interval in the input list and check for any other interval in the list that overlaps it. If there is an overlap, merge the other interval into the first interval and then remove the other interval from the list. Repeat this for all the remaining intervals in the list.
 
-In the worst-case scenario, where all intervals overlap with each other, we would need to traverse the input list multiple times to merge all the overlapping intervals. If we have nn intervals in the input list, the time complexity to traverse and merge these would be O(n2). However, the space complexity for this solution is O(1), since we are not using any extra processing space.
+In the worst-case scenario, where all intervals overlap with each other, we would need to traverse the input list multiple times to merge all the overlapping intervals. If we have nn intervals in the input list, the time complexity to traverse and merge these would be O(n^2). However, the space complexity for this solution is O(1), since we are not using any extra processing space.
 
 The solution to this problem with merge intervals can be divided into the following two parts:
 
